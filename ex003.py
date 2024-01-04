@@ -1,0 +1,6 @@
+entrada = input('Digite algo: ')
+print(type(entrada))
+print('Só tem espaços? ',entrada.isspace())
+print('é numérico: ',entrada.isnumeric())
+print('tem letras? ',entrada.isalpha())
+print('Está em minúscula?',entrada.islower())

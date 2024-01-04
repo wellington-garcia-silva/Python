@@ -1,0 +1,2 @@
+num = float(input('digite a quantidade de dinheiro qiue você possui em reais: '))
+print('A quantidade de dinheiro que você possui em reais é: {} R$ que dá para comprar de dólares é: {} U$$'.format(num,num/3.27))
